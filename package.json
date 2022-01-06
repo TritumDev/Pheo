@@ -1,0 +1,25 @@
+{
+  "name": "pheo",
+  "version": "1.0.2",
+  "description": "Pheo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TritumDev/Pheo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TritumDev/Pheo/issues"
+  },
+  "homepage": "https://github.com/TritumDev/Pheo#readme",
+  "dependencies": {
+    "discord.js": "^13.5.0",
+    "socket.io-client": "^4.4.0"
+  },
+  "devDependencies": {}
+}
