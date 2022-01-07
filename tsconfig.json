@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+
+    /* Language and Environment */
+    "target": "es2017",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "declaration": true,
+    /* Modules */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+
+    "allowSyntheticDefaultImports": true,
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+
+    "skipLibCheck": true,
+    "lib": ["es6", "dom", "es2017"],
+  },
+  "include": ["src/**/*", "Client.ts"]
+}

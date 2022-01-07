@@ -1,25 +1,26 @@
 {
   "name": "pheo",
-  "version": "1.0.2",
-  "description": "Pheo",
+  "version": "1.2.1",
+  "description": "The official API wrapper for the Pheonix API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "API Wrapper",
+    "Pheonix"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TritumDev/Pheo.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Thyke Adams",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TritumDev/Pheo/issues"
-  },
-  "homepage": "https://github.com/TritumDev/Pheo#readme",
   "dependencies": {
-    "discord.js": "^13.5.0",
-    "socket.io-client": "^4.4.0"
+    "socket.io-client": "^4.4.1",
+    "typescript": "^4.5.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^17.0.8"
+  }
 }
